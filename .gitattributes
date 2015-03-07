@@ -1,1 +1,4 @@
 * text=auto
+
+# Some of the nodeunit tests will fail if the line endings are converted to crlf
+/test/** eol=lf
