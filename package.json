@@ -1,0 +1,50 @@
+{
+   "name": "grunt-piecemeal",
+   "version": "0.1.0",
+   "homepage": "https://github.com/ArchCodeMonkey/grunt-piecemeal",
+   "description": "Concatenates individual script folders and checks dependencies.",
+   "author":
+   {
+      "name": "Michael Hannaford",
+      "email": "michael@archcodemonkey.com"
+   },
+   "repository":
+   {
+      "type": "git",
+      "url": "git://github.com/ArchCodeMonkey/grunt-piecemeal.git"
+   },
+   "bugs":
+   {
+      "url": "https://github.com/ArchCodeMonkey/grunt-piecemeal/issues"
+   },
+   "keywords":
+   [
+      "gruntplugin",
+      "piecemeal",
+      "concat",
+      "dependency"
+   ],
+   "main": "Gruntfile.js",
+   "engines":
+   {
+      "node": ">= 0.8.0"
+   },
+   "license": "MIT",
+   "devDependencies":
+   {
+      "grunt-contrib-clean": "~0.5.0",
+      "grunt-contrib-jshint": "~0.8.0",
+      "grunt-contrib-nodeunit": "~0.3.0",
+      "grunt": "~0.4.2",
+      "jshint-stylish": "~0.1.5",
+      "load-grunt-tasks": "~0.3.0"
+   },
+   "peerDependencies":
+   {
+      "grunt": "~0.4.2"
+   },
+   "scripts":
+   {
+      "test": "grunt test"
+   }
+}
